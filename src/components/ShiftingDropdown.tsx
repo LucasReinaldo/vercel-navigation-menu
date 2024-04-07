@@ -278,7 +278,7 @@ const Content = (props: ContentProps) => {
 };
 
 const Tabs = () => {
-  const [selectedTab, setSelectedTab] = useState<number | null>(1);
+  const [selectedTab, setSelectedTab] = useState<number | null>(null);
   const [direction, setDirection] = useState<null | "left" | "right">(null);
 
   const handleTabFocus = (val: number | null) => {
